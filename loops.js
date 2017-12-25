@@ -12,3 +12,13 @@ function whileLoop(n){
   }
   return "done";
 }
+
+function doWhileLoop(array){
+  //loops doWhileLoop(array) removes elements from `array` until `array` is 
+  //empty or until `maybeTrue()` returns `false`:
+
+  do {
+    array.pop();
+  [loopBody];
+  } while ([condition]);
+}
